@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<!-- Nuget Versioning -->
+	<PropertyGroup>
+		<VersionPrefix>1.0.1</VersionPrefix>
+		<PackageId>NugetCiAppveyor-Test-Example</PackageId>
+		<!-- Projenizin versiyonunu buradan yönetebilirsiniz -->
+		<Authors>Yılmaz Ölmez</Authors>
+		<Company>Yılmaz Ölmez Company</Company>
+		<RepositoryUrl>https://github.com/yilmazolmez/Nuget-CiAppveyor</RepositoryUrl>
+		<!-- Eğer GitHub gibi bir VCS kullanıyorsanız -->
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<!-- Lisans türünü buraya ekleyin -->
+		<PackageProjectUrl>https://github.com/yilmazolmez/Nuget-CiAppveyor</PackageProjectUrl>
+		<!-- Projenizin URL'si -->
+		<PackageDescription>NugetCiAppveyor test denemesidir</PackageDescription>
+		<PackageTags>nuget, ciappveyor,utility</PackageTags>
+		<!-- Proje ile ilgili anahtar kelimeler -->
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<!-- Build sırasında NuGet paketi oluşturur -->
+	</PropertyGroup>
+
+
+
+
+	<ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>
