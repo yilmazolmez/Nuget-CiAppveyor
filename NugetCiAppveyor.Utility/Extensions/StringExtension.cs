@@ -18,5 +18,11 @@ namespace NugetCiAppveyor.Utility.Extensions
         {
             return JsonConvert.SerializeObject(list);
         }
+
+        public static string ToPascalCase(this string str)
+        {
+            return str.ToPascalCase();
+        }
+
     }
 }
