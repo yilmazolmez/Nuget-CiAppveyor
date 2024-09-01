@@ -29,7 +29,9 @@ namespace NugetCiAppveyor.API.Controllers
 
             var stringListSerialize = stringList.ToSerialize();
 
+            var stringValue = "Yýlmaz";
 
+            var result = stringValue.ToPascalCase();
 
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
